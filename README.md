@@ -113,7 +113,7 @@ Normalize our dataset.
 
 8. Finally, call the functions confusion_matrix(), and the classification_report() in order to evaluate the performance of our classifier.
 
-<H3>Program:</H3> 
+##program
 ```
 import pandas as pd
 from sklearn import preprocessing
@@ -152,10 +152,10 @@ print(confusion_matrix(y_test, predictions))
 print(classification_report(y_test, predictions))
 ```
 
-<H3>Output:</H3>
+##Output
 
 ![Screenshot 2024-09-27 085930](https://github.com/user-attachments/assets/f0fa21db-94e1-431f-a96e-99adea24aa5c)
 
 
-<H3>Result:</H3>
+##Result
 Thus, MLP is implemented for multi-classification using python.

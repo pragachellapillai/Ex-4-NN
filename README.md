@@ -121,6 +121,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import classification_report, confusion_matrix
+
 url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'Class']
 irisdata = pd.read_csv(url, names=names)
@@ -152,7 +153,9 @@ print(classification_report(y_test, predictions))
 ```
 
 <H3>Output:</H3>
-![Screenshot 2024-09-27 085930](https://github.com/user-attachments/assets/4865c8e4-c9c8-4595-b5a3-f14010a6f571)
+
+![Screenshot 2024-09-27 085930](https://github.com/user-attachments/assets/f0fa21db-94e1-431f-a96e-99adea24aa5c)
+
 
 <H3>Result:</H3>
 Thus, MLP is implemented for multi-classification using python.
